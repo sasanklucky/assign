@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FORM</title>
+    <style>
+        
+        body{
+            
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        fieldset{
+            background-color: rgba(49, 50, 33, 0.7);
+            color: whitesmoke;
+            width: 1400px;
+            margin:auto;
+            box-shadow: 0px 0px 5px 5px red ;
+        }
+        legend{
+            border: 2px solid black;
+            padding: 10px;
+            border-radius: 0 30px;
+            background-color: rgba(65, 74, 82, 0.7);
+            color: whitesmoke;
+            box-shadow: 0px 0px 2px 2px lime;
+        }
+        form{
+            margin:auto;
+            width:1200px;
+            height: 500px;
+        } 
+        table{
+            width: 1200px; 
+            height: 500px;
+        }
+        td{
+            margin-left: 150px;
+            width: 250px;
+        }
+        div form{
+            margin:auto;
+            width:1200px;
+            height: 300px;
+        }
+        div table{
+            width: 1200px; 
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+            <legend>PERSIONAL INFORMATION</legend>
+            <form id="first">
+                <table>
+                    <tr>
+                        <td><label>FIRST NAME</label></td>
+                        <td><input type="text"></td>
+                        <td><label>MIDDLE NAME</label></td>
+                        <td><input type="text"></td>
+                        <td ><label>LAST NAME</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>FATHER NAME</label></td>
+                        <td><input type="text"></td>
+                        <td><label>MOTHER NAME</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label>PHONE NUMBER</label></td>  
+                    </tr>
+
+                    <tr>
+                        <td><label>LANDLINE NUMBER</label></td>
+                        <td><input type="tel"></td>
+                        <td><label>MOBILE NUMBER</label></td>
+                        <td><input type="tel"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>DOB</label></td>
+                        <td><input type="date"></td>
+                        <td><label>PLACE OF BIRTH</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>GENDER</label></td>
+                        <td><input type="radio" name="s"><label>Male</label></td>
+                        <td><input type="radio" name="s"><label>Female</label></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>HIGHER QUALIFICATION</label></td>
+                        <td><input type="text"></td>
+                        <td><label>YEAR OF PASSING</label></td>
+                        <td><input type="date"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>lANGUAHES KNOWN</label></td>
+                        <td><input type="checkbox" name="s"><label>ENGLISH</label></td>
+                        <td><input type="checkbox" name="s"><label>HINDI</label></td>
+                        <td><input type="checkbox" name="s"><label>ODIA</label></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>HOBBIES</label></td>
+                        <td><input type="checkbox" name="s"><label>PLAYING</label></td>
+                        <td><input type="checkbox" name="s"><label>CODING</label></td>
+                        <td><input type="checkbox" name="s"><label>CYCLING</label></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>ABOUT YOUR SELF</label></td>
+                        <td><textarea cols="30" rows="5"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td>NATIONALITY</td>
+                        <td>
+                            <select>
+                                <option>---select---</option>
+                                <option>INDIA</option>
+                                <option>PAKISTAN</option>
+                                <option>AMERICAN</option>
+                                <option>CHINA</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>AADHAR CARD NO.</label></td>
+                        <td><input type="text"></td>
+                        <td><label>PAN CARD NO.</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                </table>
+            </form>
+    </fieldset>
+    <div>
+        <fieldset>
+            <legend>EDUCATION DETAILS</legend>
+            <form>
+                <table>
+                    <tr>
+                        <td><label>S.NO</label></td>
+                        <td><label>QUALIFICATION</label></td>
+                        <td><label>INSTITUTE/UNIVERSITY</label></td>
+                        <td><label>YEAR OF PASSING</label></td>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="date"></td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="date"></td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="date"></td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
